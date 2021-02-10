@@ -1,0 +1,17 @@
+{
+    "TaskStatus": "Failed",
+    "TaskType": "Backup",
+    "ObjectLinkingId": "Fileset:::b6f549ed-ca46-4952-a45b-1370e81ff073",
+    "ObjectName": "PR_CORE_DEV_WIN_PLAT_2.0",
+    "ObjectType": "WindowsFileset",
+    "ObjectState": "Active",
+    "Location": "108423-core_instance-N_PR_D_CPWS4U-1-94bfea7c22WIN.bkp.nuvem-intera.local",
+    "SlaDomainId": "e4732e8f-8a6e-4484-bb52-2fbb9a98a0e9",
+    "SlaDomain": "PR_WIN_DEFAULT",
+    "SlaDomainState": "Active",
+    "StartTime": "2021-02-03 15:59:53",
+    "EndTime": "2021-02-03 16:02:32",
+    "Duration": "159430",
+    "DataTransferred": "0",
+    "DataStored": "0"
+}

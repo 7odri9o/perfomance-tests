@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch",
+            "outputCapture": "std",
+            "program": "${workspaceFolder}/mongo/server.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Select from MariaDB",
+            "args": [
+                "cron-select-items.js"
+            ],
+            "outputCapture": "std",
+            "program": "${workspaceFolder}/mariadb/server.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Insert Items",
+            "outputCapture": "std",
+            "args": [
+                "10"
+            ],
+            "program": "${workspaceFolder}/mariadb/insert-many.js"
+        },
+    ]
+}
